@@ -17,10 +17,10 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">Kode</th>
+                    <th scope="col">ID</th>
                     <th scope="col">Nama</th>
-                    <th scope="col">Tanggal Pemesanan</th>
-                    <th scope="col">Tanggal Berangkat</th>
+                    <th scope="col">Alamat</th>
+                    <th scope="col">Tanggal Lahir</th>
                     <th scope="col">Kelamin</th>
                     <th scope="col">Telepon</th>
                     <th scope="col">Action</th>
@@ -36,7 +36,7 @@
                     <td>081265578982</td>
                     <td>
                         <a href="#"><i class="fas fa-plus"></i></a>
-                        <a href="#"><i class="fas fa-edit"></i></a>
+                        <a href="#"><i class="fas fa-pen"></i></a>
                         <a href="#"><i class="fas fa-minus"></i></a>
                     </td>
                 </tr>
@@ -49,7 +49,7 @@
                     <td>081265573211</td>
                     <td>
                         <a href="#"><i class="fas fa-plus"></i></a>
-                        <a href="#"><i class="fas fa-edit"></i></a>
+                        <a href="#"><i class="fas fa-pen"></i></a>
                         <a href="#"><i class="fas fa-minus"></i></a>
                     </td>
                 </tr>
@@ -62,7 +62,7 @@
                     <td>081265505511</td>
                     <td>
                         <a href="#"><i class="fas fa-plus"></i></a>
-                        <a href="#"><i class="fas fa-edit"></i></a>
+                        <a href="#"><i class="fas fa-pen"></i></a>
                         <a href="#"><i class="fas fa-minus"></i></a>
                     </td>
                 </tr>
