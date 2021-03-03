@@ -34,33 +34,36 @@
                     <td>02-08-2003</td>
                     <td>Perempuan</td>
                     <td>081265578982</td>
-                    <td>
+                    <td class="d-flex justify-content-between">
+                        <a href="#"><i class="fas fa-eye"></i></a>
                         <a href="#"><i class="fas fa-plus"></i></a>
                         <a href="#"><i class="fas fa-pen"></i></a>
                         <a href="#"><i class="fas fa-minus"></i></a>
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row">1</th>
+                    <th scope="row">2</th>
                     <td>Adam</td>
                     <td>Jl. Akasia No 9</td>
                     <td>20-05-2003</td>
                     <td>Laki-laki</td>
                     <td>081265573211</td>
-                    <td>
+                    <td class="d-flex justify-content-between">
+                        <a href="#"><i class="fas fa-eye"></i></a>
                         <a href="#"><i class="fas fa-plus"></i></a>
                         <a href="#"><i class="fas fa-pen"></i></a>
                         <a href="#"><i class="fas fa-minus"></i></a>
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row">1</th>
+                    <th scope="row">3</th>
                     <td>Mark</td>
                     <td>Jl. Pahlawan No 29</td>
                     <td>20-05-2001</td>
                     <td>Laki-laki</td>
                     <td>081265505511</td>
-                    <td>
+                    <td class="d-flex justify-content-between">
+                        <a href="#"><i class="fas fa-eye"></i></a>
                         <a href="#"><i class="fas fa-plus"></i></a>
                         <a href="#"><i class="fas fa-pen"></i></a>
                         <a href="#"><i class="fas fa-minus"></i></a>

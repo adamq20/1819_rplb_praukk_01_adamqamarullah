@@ -17,52 +17,40 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">Kode</th>
+                    <th scope="col">ID</th>
                     <th scope="col">Nama</th>
-                    <th scope="col">Tanggal Pemesanan</th>
-                    <th scope="col">Tanggal Berangkat</th>
-                    <th scope="col">Kelamin</th>
-                    <th scope="col">Telepon</th>
+                    <th scope="col">Level</th>
                     <th scope="col">Action</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th scope="row">1</th>
-                    <td>Felica</td>
-                    <td>Jl. Apel No 11</td>
-                    <td>02-08-2003</td>
-                    <td>Perempuan</td>
-                    <td>081265578982</td>
-                    <td>
+                    <td>Bruce</td>
+                    <td>Admin</td>
+                    <td class="d-flex justify-content-between">
                         <a href="#"><i class="fas fa-plus"></i></a>
-                        <a href="#"><i class="fas fa-edit"></i></a>
+                        <a href="#"><i class="fas fa-pen"></i></a>
                         <a href="#"><i class="fas fa-minus"></i></a>
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row">1</th>
-                    <td>Adam</td>
-                    <td>Jl. Akasia No 9</td>
-                    <td>20-05-2003</td>
-                    <td>Laki-laki</td>
-                    <td>081265573211</td>
-                    <td>
+                    <th scope="row">2</th>
+                    <td>Howdy</td>
+                    <td>Petugas</td>
+                    <td class="d-flex justify-content-between">
                         <a href="#"><i class="fas fa-plus"></i></a>
-                        <a href="#"><i class="fas fa-edit"></i></a>
+                        <a href="#"><i class="fas fa-pen"></i></a>
                         <a href="#"><i class="fas fa-minus"></i></a>
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Jl. Pahlawan No 29</td>
-                    <td>20-05-2001</td>
-                    <td>Laki-laki</td>
-                    <td>081265505511</td>
-                    <td>
+                    <th scope="row">3</th>
+                    <td>Hellen</td>
+                    <td>Petugas</td>
+                    <td class="d-flex justify-content-between">
                         <a href="#"><i class="fas fa-plus"></i></a>
-                        <a href="#"><i class="fas fa-edit"></i></a>
+                        <a href="#"><i class="fas fa-pen"></i></a>
                         <a href="#"><i class="fas fa-minus"></i></a>
                     </td>
                 </tr>
