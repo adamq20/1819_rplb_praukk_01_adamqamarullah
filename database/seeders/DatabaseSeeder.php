@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Database\Seeders\petugasSeeder;
+use Database\Seeders\levelSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -13,6 +15,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        $this->call([
+
+            levelSeeder::class
+        ]);
+        $this->call([
+            petugasSeeder::class
+        ]);
     }
 }
