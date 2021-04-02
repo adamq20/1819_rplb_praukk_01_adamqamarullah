@@ -21,18 +21,29 @@
                             <p class="h4">TICKET<b>PEDIA</b></p>
                         </div>
                         <br>
-                        <form action="" autocomplete="off">
+                        <form method="POST" action="">
                             <div class="form-group">
-                                <input type="text" class="form-control" name="username" placeholder="username">
+                                <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Masukan Email" value="" required>
+                                <div class="invalid-feedback"></div>
+                            </div>
+                            <br>
+                            <div>
+                                <input type="text" class="form-control" id="inputName" name="name" placeholder="Masukan Username" value="" required autofocus>
+                                <div class="invalid-feedback"></div>
                             </div>
                             <br>
                             <div class="form-group">
-                                <input type="password" class="form-control" name="password" placeholder="password">
+                                <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Masukan Password" required>
+                                <div class="invalid-feedback"></div>
                             </div>
                             <br>
-                            <div class="d-flex justify-content-between">
-                            <button type="button" id="sendlogin" class="btn btn-primary">Login</button>
-                            <a href="#">Create an account</a>
+                            <div class="form-group">
+                                <input type="Password" class="form-control" id="inputPassword" name="password_confirmation" placeholder="Konfirmasi Password" required>
+                                <div class="invalid-feedback"></div>
+                            </div>
+                            <br>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Register</button>
                             </div>
                         </form>
                     </div>

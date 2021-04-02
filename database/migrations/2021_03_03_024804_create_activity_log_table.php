@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateLevelTable extends Migration
+class CreateActivityLogTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,13 @@ class CreateLevelTable extends Migration
      */
     public function up()
     {
-        Schema::create('level', function (Blueprint $table) {
+        Schema::create('activity_log', function (Blueprint $table) {
             $table->id();
-            $table->enum('nama_level',['admin','petugas','penumpang']);
+            $table->string('nama_log',25);
+            $table->text('deskripsi');
+            $table->string('tabel',50);
+            $table->integer('referensi_id');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }
@@ -27,6 +31,6 @@ class CreateLevelTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('level');
+        Schema::dropIfExists('activity_log');
     }
 }

@@ -2,14 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Carbon\Carbon;
-use App\Models\TagihanSpp;
-use Illuminate\Support\Str;
 use Illuminate\Http\Request;
-use Yajra\DataTables\DataTables;
-use App\Models\penumpang;
 
-class penumpangController extends Controller
+class dashboardController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -18,8 +13,7 @@ class penumpangController extends Controller
      */
     public function index()
     {
-        $data_penumpang = penumpang::all();
-        return view("penumpang/index",compact('data_penumpang'));
+        return view('dashboard/index');
     }
 
     /**
@@ -29,12 +23,7 @@ class penumpangController extends Controller
      */
     public function create()
     {
-        $data = [
-            'id_rute' => rute::all(),
-            'penumpang' => penumpang::all()
-        ];
-
-        return view("penumpang/index",$data);
+        //
     }
 
     /**
@@ -45,16 +34,7 @@ class penumpangController extends Controller
      */
     public function store(Request $request)
     {
-        penumpang::create([
-            'route_id'=>$request->route_id,
-            'nama_penumpang'=>$request->nama_penumpang,
-            'alamat_penumpang'=>$request->alamat_penumpang,
-            'tanggal_lahir'=>$request->tanggal_lahir,
-            'jenis_kelamin'=>$request->jenis_kelamin,
-            'telephone'=>$request->telephone
-        ]);
-       
-        return redirect('/penumpang')->with('berhasil dihapus');
+        //
     }
 
     /**

@@ -6,14 +6,18 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\User;
 
-class petugas extends Model
+class penumpang extends Model
 {
     use HasFactory;
 
-    protected $table = 'petugas';
+    protected $table = 'penumpang';
     protected $fillable = [
         'id_user',
-        'nama_petugas'
+        'nama_penumpang',
+        'alamat_penumpang',
+        'tanggal_lahir',
+        'jenis_kelamin',
+        'telepon'
     ];
 
     public function user()

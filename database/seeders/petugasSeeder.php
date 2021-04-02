@@ -14,11 +14,15 @@ class petugasSeeder extends Seeder
      */
     public function run()
     {
+        $user = DB::table('users')->insertGetId([
+            'level' => 'admin',
+            'email' => 'admin@ticketpedia.com',
+            'password' => bcrypt('admin')
+        ]);
+
         DB::table('petugas')->insert([
-            'id_level' => 1,
-            'username' => 'admin',
-            'password' => bcrypt('admin'),
-            'nama_petugas' => 'adam'
+            'id_user' => $user,
+            'nama_petugas' => 'Admin'
         ]);
     }
 }
